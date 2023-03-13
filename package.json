@@ -1,0 +1,19 @@
+{
+  "name": "try-mocha-exports",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --ui exports index.spec.js"
+  },
+  "dependencies": {
+    "expect": "^29.5.0",
+    "expect-mocha-image-snapshot": "^3.0.1",
+    "expect-mocha-snapshot": "^2.1.5",
+    "mocha": "^10.2.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.31.3"
+  }
+}
